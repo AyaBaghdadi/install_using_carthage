@@ -6,13 +6,13 @@
 ### Pod
 
 ```
-0. Write in Terminal cd (Your_Project_path)
+0 Write in Terminal cd (Your_Project_path)
 
-1. pod init
+1 pod init
 
-2. pod install
+2 pod install
 
-3. Open open XCode project from " .xcworkspace "
+3 Open open XCode project from " .xcworkspace "
 ```
 
 ### Cartage 
@@ -30,7 +30,7 @@ Carthage is intended to be the simplest way to add frameworks to your Cocoa appl
 
 1. Install cartage 
 
-1.1 Installer: Download and run the Carthage.pkg file for the latest [@release](https://github.com/Carthage/Carthage/releases)
+   1.1 Installer: Download and run the Carthage.pkg file for the latest [@release](https://github.com/Carthage/Carthage/releases)
 
 2. In terminal run & write password // for certain no error
 
@@ -52,7 +52,7 @@ you shoud get this if not or get command not found or error try to install carta
 
 ## install cartage by Homebrew
 
-3.1 If has still error in step 3 try another way for install like using "Homebrew" write this in terminal & return to step 3 again
+   3.1 If has still error in step 3 try another way for install like using "Homebrew" write this in terminal & return to step 3 again
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -78,7 +78,7 @@ This is project folder before this step
 
 ![xcworkspace](ReadMeImages/readme5.png)
 
-5.1 Run this in terminal 
+   5.1 Run this in terminal 
 
 ```
 touch Cartfile
@@ -96,7 +96,7 @@ Project folder After this step
 
 ![xcworkspace](ReadMeImages/readme7.png)
 
-6.1 And write in this file your dependencies you need like this & Save
+  6.1 And write in this file your dependencies you need like this & Save
 
 ```
 github "Alamofire/Alamofire"
@@ -130,17 +130,17 @@ Note : we will follow instruction of [@Carthage Documentaion](https://github.com
 
 8. Drag the built .xcframework bundles from Carthage/Build into the "Frameworks and Libraries" section of your application’s Xcode project.
 
-8.1 Open project target
+   8.1 Open project target
 
-8.2 Build Phases
+   8.2 Build Phases
 
-8.3 Open Link Binary with library
+   8.3 Open Link Binary with library
 
-8.3 Click Plus
+   8.3 Click Plus
 
-8.4 Add Other
+   8.4 Add Other
 
-8.5 Select your Project path -> Cartage Folder -> Build Folder -> select framework.xcframework you need
+   8.5 Select your Project path -> Cartage Folder -> Build Folder -> select framework.xcframework you need
 
 9. Try in ViewController to import your library & Run your Project if Build successfully then you Done.
 
