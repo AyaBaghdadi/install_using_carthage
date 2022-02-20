@@ -44,7 +44,9 @@ sudo chown -R $(whoami) /usr/local/*
 brew install carthage 
 ```
 
-you shoud get this if not or get command not found or error try to iunstall cartage in another way
+you shoud get this if not or get command not found or error try to install cartage in another way
+
+' like this Image '
 
 ![xcworkspace](ReadMeImages/readme4.png)
 
@@ -56,9 +58,13 @@ you shoud get this if not or get command not found or error try to iunstall cart
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
+' like this Image '
+
 ![xcworkspace](ReadMeImages/readme2.png)
 
 Result of step 3.1
+
+' like this Image '
 
 ![xcworkspace](ReadMeImages/readme3.png)
 
@@ -67,6 +73,8 @@ Result of step 3.1
 5. Create a Cartfile & open project file to show
 
 This is project folder before this step
+
+' like this Image '
 
 ![xcworkspace](ReadMeImages/readme5.png)
 
@@ -78,9 +86,13 @@ touch Cartfile
 
 Project folder After this step
 
+' like this Image '
+
 ![xcworkspace](ReadMeImages/readme6.png)
 
 6. Open created Cartfile this 
+
+' like this Image '
 
 ![xcworkspace](ReadMeImages/readme7.png)
 
@@ -90,6 +102,8 @@ Project folder After this step
 github "Alamofire/Alamofire"
 ```
 
+' like this Image '
+
 ![xcworkspace](ReadMeImages/readme8.png)
 
 7. Run this in terminal to install
@@ -98,13 +112,19 @@ github "Alamofire/Alamofire"
 carthage update --use-xcframeworks
 ```
 
+' like this Image '
+
 ![xcworkspace](ReadMeImages/readme9.png)
 
-In Project file you can find this
+In Project file you can find 
+
+' like this Image '
 
 ![xcworkspace](ReadMeImages/readme10.png)
 
 Note : we will follow instruction of [@Carthage Documentaion](https://github.com/Carthage/Carthage) in details .
+
+' like this Image '
 
 ![xcworkspace](ReadMeImages/readme1.png)
 
@@ -123,6 +143,8 @@ Note : we will follow instruction of [@Carthage Documentaion](https://github.com
 8.5 Select your Project path -> Cartage Folder -> Build Folder -> select framework.xcframework you need
 
 9. Try in ViewController to import your library & Run your Project if Build successfully then you Done.
+
+' like this Image '
 
 ![xcworkspace](ReadMeImages/readme11.png)
 
